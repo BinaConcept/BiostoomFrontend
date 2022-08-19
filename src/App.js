@@ -7,12 +7,13 @@ import {
 } from 'react-router-dom'
 
 import { Navbar } from './app/Navbar'
+import { Login } from './components/login/login'
 
 function App() {
   return (
     <Router>
       <Navbar />
-      <div className="App">
+      {/* <div className="App">
         <Switch>
           <Route
             exact
@@ -25,7 +26,8 @@ function App() {
           />
           <Redirect to="/" />
         </Switch>
-      </div>
+      </div> */}
+      <Login/>
     </Router>
   )
 }
