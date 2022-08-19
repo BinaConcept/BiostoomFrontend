@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom'
 
 import { Navbar } from './app/Navbar'
+import { Employee } from './components/employee/employee'
 import { Login } from './components/login/login'
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
           <Redirect to="/" />
         </Switch>
       </div> */}
-      <Login/>
+      <Employee/>
     </Router>
   )
 }
