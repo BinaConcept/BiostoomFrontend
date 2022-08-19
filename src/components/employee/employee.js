@@ -22,7 +22,7 @@ export const Employee = () => {
               <div className="col-lg-3">
                 <div
                   style={{ width: '100%' }}
-                  className="d-flex justify-content-center"
+                  className="d-flex justify-content-center mb-3"
                 >
                   <img
                     src="images/loginIcone.png"
